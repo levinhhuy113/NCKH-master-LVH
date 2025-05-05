@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%; /* Điều chỉnh độ rộng của container, bạn có thể thay đổi giá trị */
+    max-width: 1200px; /* Điều chỉnh kích thước tối đa của container */
+    margin: 0 auto; /* Căn giữa container */
+    padding: 20px; /* Thêm khoảng đệm bên trong container */
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left; /* Đảm bảo title căn trái */
+}
+
+.title span {
+    color: red;
+}
+
+.coupon-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center; /* Căn giữa các coupon */
+}
+
+.coupon-card {
+    display: flex;
+    border: 2px solid #ffccd5;
+    border-radius: 12px;
+    width: 540px;
+    background-color: #fff0f3;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(255, 0, 102, 0.2); /* Hiệu ứng border đổ bóng */
+   
+}
+
+
+
+.left {
+    flex: 1;
+}
+
+
+.discount {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.date,
+.note {
+    font-size: 13px;
+    margin: 3px 0;
+}
+
+.terms {
+    color: #f06;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.right {
+    text-align: center;
+    padding-left: 20px;
+    border-left: 2px dashed #ffccd5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.code {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.code strong {
+    color: #f06;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #f06;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d00557;
+}
